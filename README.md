@@ -5,11 +5,9 @@ Home: https://github.com/yang-tang/shinyjqui
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinyjqui-feedstock/blob/master/LICENSE.txt)
 
 Summary: An extension to shiny that brings interactions and animation effects from 'jQuery UI' library.
-
-
 
 Current build status
 ====================
