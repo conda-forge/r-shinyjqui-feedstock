@@ -1,4 +1,4 @@
-{% set version = '0.3.3' %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinyjqui_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinyjqui/shinyjqui_{{ version }}.tar.gz
-  sha256: 3d218466c161a3b155ce061b5b5912a12cd4de077df3ae336fa6a33b6b979158
+  sha256: 50e16f51b91b623e29da5bdb26fbc8a620aec20c57d798419664e8e8ea05da46
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -44,11 +44,10 @@ test:
 about:
   home: https://github.com/yang-tang/shinyjqui
   license: MIT
-  summary: An extension to shiny that brings interactions and animation effects from 'jQuery
-    UI' library.
+  summary: An extension to shiny that brings interactions and animation effects from 'jQuery UI' library.
   license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
 
 extra:
