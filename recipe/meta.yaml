@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinyjqui_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinyjqui/shinyjqui_{{ version }}.tar.gz
-  sha256: 50e16f51b91b623e29da5bdb26fbc8a620aec20c57d798419664e8e8ea05da46
+  sha256: 611f11b5a77fad6f738810dbad76fc211b1636c0754f0aecba6679afcfe7af8c
 
 build:
   merge_build_host: true  # [win]
