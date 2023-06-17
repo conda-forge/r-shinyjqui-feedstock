@@ -1,11 +1,11 @@
-About r-shinyjqui
-=================
+About r-shinyjqui-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinyjqui-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/yang-tang/shinyjqui
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinyjqui-feedstock/blob/main/LICENSE.txt)
 
 Summary: An extension to shiny that brings interactions and animation effects from 'jQuery UI' library.
 
